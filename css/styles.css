@@ -1,0 +1,19 @@
+:root{
+    --color-purple:rgb(22, 92, 153)
+}
+.title-size{
+    /* cada rem é 16 pixels */
+    font-size: 1.5rem;
+    color: var(--color-purple);
+}
+
+.container .navbar-toggler{
+    box-shadow: none;
+    border-width: 2px;
+    border-color: var(--color-purple);
+}
+
+.bi-filter-right{
+    color: var(--color-purple);
+    font-size: 1.5rem;
+}
